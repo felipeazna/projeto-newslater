@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        max-width: 768px;
+    }
+
+    img {
+        display: none;
+    }
+
+    main {
+        justify-content: center;
+    }
+
+    form {
+        align-self: center;
+    }
+
+    form [type="submit"] {
+        align-self: center;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    img {
+        display: none;
+    }
+
+    main {
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    form {
+        align-self: center;
+    }
+
+    form [type="submit"] {
+        align-self: center;
+    }
+    
+}
